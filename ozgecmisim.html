@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial;
+        padding: 10px;
+        background: #f1f1f1;
+      }
+
+      /* Header/Blog Title */
+      .header {
+        padding: 30px;
+        text-align: center;
+        background: white;
+      }
+
+      .header h1 {
+        font-size: 50px;
+      }
+
+      /* Style the top navigation bar */
+      .topnav {
+        overflow: hidden;
+        background-color: #333;
+      }
+
+      /* Style the topnav links */
+      .topnav a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* Change color on hover */
+      .topnav a:hover {
+        background-color: #ddd;
+        color: black;
+      }
+
+      /* Create two unequal columns that floats next to each other */
+      /* Left column */
+      .leftcolumn {
+        float: left;
+        width: 75%;
+      }
+
+      /* Right column */
+      .rightcolumn {
+        float: left;
+        width: 25%;
+        background-color: #f1f1f1;
+        padding-left: 20px;
+      }
+
+      /* Fake image */
+      .imagecv {
+        background-color: #aaa;
+        width: 100%;
+        padding: 20px;
+      }
+
+      /* Add a card effect for articles */
+      .card {
+        background-color: white;
+        padding: 20px;
+        margin-top: 20px;
+      }
+
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      /* Footer */
+      .footer {
+        padding: 20px;
+        text-align: center;
+        background: #ddd;
+        margin-top: 20px;
+      }
+
+      /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+      @media screen and (max-width: 800px) {
+        .leftcolumn,
+        .rightcolumn {
+          width: 100%;
+          padding: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <hr />
+      <h1>ÖZ GEÇMİŞİM</h1>
+      <hr />
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <hr />
+          <h2>ÖZ GEÇMİŞİM HAKKINDA KISA BİLGİ</h2>
+          <hr />
+
+          <p>
+            2000 yılında Mersin ilinin Silifke ilçesinde doğdum.<br />
+            7 yaşında Gazipaşa İlköğretim Okulu'nda eğitim hayatıma başladım.
+            6.sınıfa kadar aynı okulda devam ettim. 8.sınıfta TEOG isimli sınava
+            girerek<br />
+            Silifke Anadolu Lisesi'ni kazandım.<br />
+            İlk girdiğim sınavda istediğim bir sıralama yapamadım, sonraki
+            senede Sakarya Üniversitesi Bilgisayar Mühendisliği bölümünü
+            kazandım.<br />
+            Bundan sonraki hayatımda programlama ve yazılım alanında kendimi
+            geliştirip bu alanda başarılı olmak istiyorum.
+          </p>
+
+          <hr />
+        </div>
+        <div class="card">
+          <h2>BECERİLERİM</h2>
+          <hr />
+          <br />
+          <p>
+            Şu anda kendimi Siber Güvenlil alanında geliştirmeye çalışıyorum.<br />
+            Şimdiye kadar öğrenimine başladığım diller : C# , C++ , Java , C ,
+            Python <br />
+            Web alanında : HTML5, CSS
+          </p>
+          <br />
+          <h2>İLGİ ALANLARIM</h2>
+          <hr />
+          <br />
+          <p>
+            Voleybol <br />
+            Basketbol<br />
+            Bilgisayar oyunları<br />
+            Kitap okumak<br />
+          </p>
+          <hr />
+          <br />
+          <h2>YABANCI DİLLER</h2>
+          <hr />
+          <br />
+          <p>İngilizce</p>
+          <p>Almanca</p>
+          <h2></h2>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <img src="img/mb.jpeg" alt="resmim" class="imagecv" />
+        </div>
+        <div class="card">
+          <h3>EĞİTİM BİLGİLERİM</h3>
+          <img src="img/gazipaşa ilkokul.jpg" alt="resmim" class="imagecv" />
+          <p>OKUDUĞUM İLKOKUL</p>
+
+          <img
+            src="img/silifkeanadolulisesi.jpg"
+            alt="resmim"
+            class="imagecv"
+          />
+          <p>SİLİFKE ANADOLU LİSESİ</p>
+
+          <img src="img/saü.jpeg" alt="resmim" class="imagecv" />
+          <p>SAKARYA ÜNİVERSİTESİ</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h2>Bana Ulaşmak İçin</h2>
+      <p>
+        Telefon: 05372079340<br />
+        Mail: mustafa.bebek1@ogr.sakarya.edu.tr
+      </p>
+    </div>
+  </body>
+</html>
