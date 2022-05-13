@@ -1,0 +1,72 @@
+section {
+  width: 100%;
+  height: auto;
+  background-color: #f1f1f1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-top: 15px;
+  overflow: auto;
+}
+
+.yantaraf {
+  width: 20%;
+  float: left;
+  margin-top: 10px;
+  height: auto;
+}
+.yantaraff {
+  width: auto;
+  height: 100%;
+  margin: 0%;
+  padding: 0%;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav li a {
+  height: 50px;
+  line-height: 50px;
+  text-decoration: none;
+  color: purple;
+  border-bottom: 1px solid #b4b4b4;
+  padding-left: 20px;
+  display: block;
+}
+
+li a:hover {
+  color: white;
+  background-color: #adadad;
+}
+
+.p1 {
+  color: darkmagenta;
+}
+
+.futbol {
+  width: 30%;
+  height: auto;
+}
+
+.film {
+  width: 30%;
+  height: auto;
+}
+.sarkici {
+  width: 30%;
+  height: auto;
+}
+
+tanıtım {
+  color: darkblue;
+}
+
+.tabble {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footeri {
+  text-align: center;
+}
